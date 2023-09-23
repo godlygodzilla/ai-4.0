@@ -168,6 +168,8 @@ def main():
         Process(4, 20, 900, 2)
     ]
 
+    print("all times are in seconds\n")
+    
     total_waiting_time_FCFS, total_turnaround_time_FCFS = FCFS(processes)
     total_waiting_time_SJF, total_turnaround_time_SJF = SJF(processes)
     total_waiting_time_PS, total_turnaround_time_PS = PS(processes)
